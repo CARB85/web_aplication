@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
         
-car_data = pd.read_csv(r'C:\Users\crist\Documents\Documentos\ds_my_projects\web_aplication\vehicles_us.csv') # leer los datos
+car_data = pd.read_csv('vehicles_us.csv') # leer los datos
 
 # Encabezado
 st.header('Panel de Control de Anuncios de Venta de vehiculos')
